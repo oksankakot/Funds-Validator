@@ -1,6 +1,6 @@
 package app;
 
-public class FundsException extends Exception {
+public class FundsException extends RuntimeException {
 
     public FundsException(String message) {
         super(message);
